@@ -1,0 +1,241 @@
+body, .box a, .project p{
+    background: #eee;
+    background-color: #eee;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+a:hover{
+    color: #102840 !important;
+}
+.navbar-default{
+	background-image: -webkit-linear-gradient(top,#102840 0,#102840 100%);
+	border: solid 0px #ccc;
+	border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar-nav li a, div.navbar-header > a, .navbar-nav a{
+	color: #ccc !important;
+}
+.menu-main-navigation-container>ul{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar-nav li a:hover, div.navbar-header > a:hover{
+	color: #fff !important;
+}
+.container-fluid-of-navbar{
+	margin-right: 120px;
+	margin-left: 120px;
+	padding: 10px 120px;
+}
+.myServices{
+	margin: 20px 0px;
+}
+.box{
+	margin-bottom: 29px;
+}
+.box a {
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 176px;
+    /*
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    */
+    position: relative;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.box a:hover {
+    background-color: #102840;
+    background-position: center -174px;
+    border-color: #102840;
+    color: #102840;
+}
+.box a h3 {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 27px;
+    color: #000;
+}
+.box a:hover h3 {
+    color: #ffffff;
+}
+.parallax-1{
+	position: relative;
+	height: 350px;
+}
+.parallax-2{
+	position: relative;
+	height: 250px;
+	padding:20px;
+}
+.parallax-3{
+	height: 500px;
+}
+.quote {
+    width: 90%;
+}
+.quote-container {
+    padding: 100px 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.myProjects{
+}
+.project{
+	position: relative;
+	margin-bottom: 30px;
+    text-align: center;
+}
+.project p {
+    /*position: absolute;
+    right: 20px;
+    bottom: -5px;*/
+    background: rgba(238, 238, 238, 0.7);
+    font-weight: 700;
+    font-style: italic;
+    color: #321b09;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.project img{
+    margin: auto;
+}
+.quote_block {
+    background: rgba(224, 226, 225, 0.8);
+    border-radius: 10px;
+    padding: 31px 32px 24px 0;
+    position: relative;
+}
+.quote_block::before {
+    content: "”";
+    right: 0px;
+    top: -81px;
+}
+.quote_block::after {
+    content: "“";
+    left: 0px;
+    bottom: -184px;
+}
+.quote_block:before, .quote_block:after {
+    font: 186px/186px 'Asap', sans-serif;
+    color: #c3c3c3;
+    position: absolute;
+}
+.quote_block:before, .quote_block:after {
+    font: 186px/186px 'Asap', sans-serif;
+    color: #c3c3c3;
+    position: absolute;
+}
+.quote_img {
+    overflow: hidden;
+    width: 99px;
+    height: 99px;
+    border-radius: 99px;
+    float: right;
+    margin: -1px 29px 0 46px;
+}
+.quote_text {
+    overflow: hidden;
+}
+.quote_text p {
+    margin-bottom: 18px;
+}
+.quote_text a {
+    font: 16px/16px 'Lato', sans-serif;
+    color: #321b09;
+    font-weight: 700;
+    text-decoration: none;
+}
+.white-color{
+	color:white;
+}
+.footer{
+	padding: 100px 20px;
+	color: #fff !important;
+}
+#myCarousel, #myCarousel .item{
+    /*height: 400px;*/
+}
+#myCarousel img{
+    height: 100%;
+    width: 100%;
+}
+.mySlider{
+    margin-bottom: 20px;
+    position: relative;
+}
+.mySlider .mySliderCover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.carousel-caption{
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 15px 10px 7px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    direction: rtl;
+    text-align: right;
+    background: rgba(0,0,0,0.5);
+}
+.content-title{
+    border-bottom: solid 4px #ccc;
+    padding-bottom: 8px; 
+    margin-right: 5px;
+}
+.content-title-container{
+    margin: 15px 0px 50px 0px;
+}
+.a-project, .a-service{
+    margin-bottom: 200px;
+}
+.other-projects-header{
+    border-top: solid 5px #ccc;
+    padding-top: 7px;
+    padding-right: 15px;
+}
+.text-left{
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.qouuoute{
+    padding-right: 10px;
+    margin: 10px;
+    border-right: inset 3px #ccc;
+}
+.notification-icon::before{
+    font-family: "dashicons";
+    content: "\f227";
+    top: 2px;
+    font-size: 20px;
+}
+.notification-icon-active::before{
+    font-family: "dashicons";
+    content: "\f227";
+    top: 2px;
+    font-size: 20px;
+    color: red;
+}

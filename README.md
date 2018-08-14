@@ -1,2 +1,3 @@
 # Architecture-website
-A university project
+
+A wordpress theme for an Architit office in *29/7/2016*
